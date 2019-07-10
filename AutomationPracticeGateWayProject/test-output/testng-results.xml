@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite " duration-ms="42513" started-at="2019-07-03T18:45:03 IST" finished-at="2019-07-03T18:45:46 IST">
+    <groups>
+    </groups>
+    <test name=" Tests 1" duration-ms="30970" started-at="2019-07-03T18:45:03 IST" finished-at="2019-07-03T18:45:34 IST">
+      <class name="com.gateway.automationpractice.tests.Scenario1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gateway.automationpractice.tests.Scenario1@36d4b5c]" name="setUp" is-config="true" duration-ms="7247" started-at="2019-07-03T18:45:03 IST" finished-at="2019-07-03T18:45:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToURL()[pri:0, instance:com.gateway.automationpractice.tests.Scenario1@36d4b5c]" name="navigateToURL" is-config="true" duration-ms="7164" started-at="2019-07-03T18:45:11 IST" finished-at="2019-07-03T18:45:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method status="PASS" signature="productBuy()[pri:0, instance:com.gateway.automationpractice.tests.Scenario1@36d4b5c]" name="productBuy" duration-ms="15115" started-at="2019-07-03T18:45:18 IST" finished-at="2019-07-03T18:45:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productBuy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gateway.automationpractice.tests.Scenario1@36d4b5c]" name="tearDown" is-config="true" duration-ms="1390" started-at="2019-07-03T18:45:33 IST" finished-at="2019-07-03T18:45:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gateway.automationpractice.tests.Scenario1 -->
+    </test> <!--  Tests 1 -->
+    <test name=" Tests 2" duration-ms="11525" started-at="2019-07-03T18:45:34 IST" finished-at="2019-07-03T18:45:46 IST">
+      <class name="com.gateway.automationpractice.tests.Scenario2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gateway.automationpractice.tests.Scenario2@c038203]" name="setUp" is-config="true" duration-ms="3397" started-at="2019-07-03T18:45:34 IST" finished-at="2019-07-03T18:45:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToURL()[pri:0, instance:com.gateway.automationpractice.tests.Scenario2@c038203]" name="navigateToURL" is-config="true" duration-ms="2135" started-at="2019-07-03T18:45:38 IST" finished-at="2019-07-03T18:45:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToURL -->
+        <test-method status="PASS" signature="searchName()[pri:0, instance:com.gateway.automationpractice.tests.Scenario2@c038203]" name="searchName" duration-ms="4497" started-at="2019-07-03T18:45:40 IST" finished-at="2019-07-03T18:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gateway.automationpractice.tests.Scenario2@c038203]" name="tearDown" is-config="true" duration-ms="1494" started-at="2019-07-03T18:45:44 IST" finished-at="2019-07-03T18:45:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.gateway.automationpractice.tests.Scenario2 -->
+    </test> <!--  Tests 2 -->
+  </suite> <!-- Test Suite  -->
+</testng-results>
