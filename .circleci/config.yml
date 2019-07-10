@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/openjdk:11.0.1-jdk
 
-    working_directory: ~/AutomationPracticeGateWayProject
+    working_directory: ~/sampledemo/AutomationPracticeGateWayProject
     
     steps:
       # git pull
@@ -17,14 +17,14 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
+          - sampledemo/AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
 
       - run: mvn dependency:go-offline
 
       - save_cache:
           paths:
             - ~/.m2
-          key: AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
+          key: sampledemo/AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
         
       # package into a jar
       - run: mvn clean package
@@ -35,4 +35,4 @@ jobs:
       # store raw contents of src code
       - store_artifacts:
           path: target/classes
-          destination: AutomationPracticeGateWayProject
+          destination: sampledemo/AutomationPracticeGateWayProject
