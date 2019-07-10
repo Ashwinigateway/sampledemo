@@ -17,14 +17,14 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - sampledemo/AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
+          - sampledemo/AutomationPracticeGateWayProject-{{ checksum "pom.xml" }}
 
       - run: mvn dependency:go-offline
 
       - save_cache:
           paths:
             - ~/.m2
-          key: sampledemo/AutomationPracticeGateWayProject/-{{ checksum "pom.xml" }}
+          key: sampledemo/AutomationPracticeGateWayProject-{{ checksum "pom.xml" }}
         
       # package into a jar
       - run: mvn clean package
